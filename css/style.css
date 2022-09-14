@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1140px;
+  height: auto;
+}
+body {
+  font-family: sans-serif;
+}
+
+.r-form {
+  padding: 20px 30px;
+  background-color: #eee;
+}
+.here {
+  color: brown;
+}
+.form-content p {
+  font-size: 16px;
+}
+.main-group.form-content {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 600;
+  color: brown;
+}
+
+.form-control {
+  border: 1px solid black;
+  width: 100%;
+  height: 38px;
+  padding-left: 8px;
+}
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form-control option {
+  color: rgb(118, 118, 118);
+}
+.form-group .btn-submit {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.gender-box1 {
+  padding: 8px 0px 9px 4px;
+}
+.birth-control {
+  border: 1px solid black;
+  /* padding: 8px 0px 9px 55px; */
+  width: 100%;
+  height: 38px;
+}
+.textarea {
+  width: 100%;
+}
